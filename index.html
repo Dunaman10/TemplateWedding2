@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
 	<meta charset="UTF-8">
@@ -40,17 +40,32 @@
 
 <body>
 
+	<!-- Pembukaan start -->
+	<section class="pembukaan text-center pt-28 text-white min-h-screen w-full h-full">
+		<main data-aos="fade-up" data-aos-duration="2000">
+			<img src="img/circle.jpg" alt="mini image" class=" rounded-full flex mx-auto">
+			<h4 class="sm:text-4xl text-2xl mt-6">The Wedding of</h4>
+			<h2 class="sm:text-9xl text-7xl">Romeo & Juliet</h2>
+			<p class="sm:text-xl mb-8">Kepada Bapak/Ibu/Saudara/i:</p>
+			<a href="#hero"
+				class="btn btn-lg bg-orange-300 rounded-lg p-3 shadow-md hover:bg-white hover:text-orange-300 active:bg-orange-400 active:text-white">Buka
+				Undangan</a>
+			<p class="pt-16">klik tombol musik untuk memainkan musik</p>
+		</main>
+	</section>
+	<!-- Pembukaan end -->
+
 	<!-- Music start -->
 	<div class="audio-container fixed z-50 bottom-0 right-0 m-10">
 		<audio src="music/Thousand_years.mp3" type="audio/mp3"></audio>
 		<button class="play-button hover:bg-white hover:bg-opacity-25 rounded-full w-14 h-14" onclick="toggleAudio()"
-			id="playPauseButton"><i data-feather="play" class="mx-auto text-white"></i></button>
+			id="playPauseButton"><i data-feather="music" class="mx-auto text-white"></i></button>
 	</div>
 	<!-- Music end -->
 
 
 	<!-- countdown start -->
-	<section class="hero min-h-screen w-full h-full mx-auto flex justify-center items-center">
+	<section class="hero min-h-screen w-full h-full mx-auto flex justify-center items-center" id="hero">
 		<main class=" bg-black rounded-tr-[5rem] rounded-bl-[5rem] p-8 bg-opacity-50 text-white" data-aos="fade-up"
 			data-aos-duration="1500">
 			<h1 class="text-center fw-bold fs-[3rem]">
@@ -69,9 +84,8 @@
 	<!-- countdown end -->
 
 	<!-- Ayat Al-Qur'an start -->
-	<section class="ayat min-h-screen w-full h-full mx-auto flex justify-center items-center" data-aos="fade-down"
-		data-aos-duration="1500">
-		<main class="w-96 h-96 rounded-md">
+	<section class="ayat min-h-screen w-full h-full mx-auto flex justify-center items-center">
+		<main class="w-96 h-96 rounded-md" data-aos="fade-up" data-aos-duration="1500">
 			<p class="text-white p-8 text-center">
 				Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri,
 				supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-nya di antaramu rasa kasih dan sayang.
@@ -119,7 +133,7 @@
 
 	<!-- Date start -->
 	<section class="date min-h-screen w-full h-full mx-auto flex justify-center items-center">
-		<main class="w-[30rem] h-[40rem] rounded-tr-full rounded-tl-full" data-aos="fade-down" data-aos-duration="1500">
+		<main class="w-[30rem] h-[40rem] rounded-tr-full rounded-tl-full" data-aos="fade-up" data-aos-duration="1500">
 			<h1 class="mt-40 text-center text-4xl fw-bolder">Save the Date</h1>
 			<div class="flex justify-evenly p-5">
 				<div class="akad mt-10 text-center">
@@ -147,7 +161,7 @@
 
 	<!-- Journey start -->
 	<section class="journey min-h-screen w-full h-full">
-		<main class="p-20">
+		<main class="p-10">
 			<div class="text-white text-center mb-10" data-aos="fade-up" data-aos-duration="1500">
 				<h1>The Journey</h1>
 				<hr class="w-40 mx-auto">
@@ -180,7 +194,7 @@
 	<!-- Gallery start -->
 	<section class="galeri">
 		<main>
-			<figure data-aos="fade-down" data-aos-duration="1500">
+			<figure data-aos="fade-up" data-aos-duration="1500">
 				<figcaption class="text-center my-10">
 					A Glimpse of Our Moments
 				</figcaption>
@@ -203,7 +217,7 @@
 
 	<!-- Share Love start -->
 	<section class="share-love min-h-screen w-full h-full mt-10 flex items-center">
-		<main class="w-[50rem] h-[40rem] text-white bg-black bg-opacity-40 rounded-3xl p-5 mx-auto" data-aos="fade-down"
+		<main class="w-[50rem] h-[40rem] text-white bg-black bg-opacity-40 rounded-3xl p-5 mx-auto" data-aos="fade-up"
 			data-aos-duration="1500">
 			<h1 class="text-center text-white text-[5rem]">Share Love</h1>
 			<p class="text-center">Bagi tamu yang akan mengirimkan hadiah kepada kedua mempelai silahkan mengirimkan melalui
@@ -238,7 +252,8 @@
 			<h1 class="mt-32">Romeo & Juliet</h1>
 			<div class="w-96 mx-auto">
 				<h2>Terima kasih</h2>
-				<p>Merupakan sebuah kehormatan dan kebahagiaan bagi kami jika Bapak/Ibu/Saudara/i berkenan hadir dan memberikan
+				<p>Merupakan sebuah kehormatan dan kebahagiaan bagi kami jika Bapak/Ibu/Saudara/i berkenan hadir dan
+					memberikan
 					doa restu bagi kami. Terima kasih.</p>
 				<p> <span>01 Juni 2025</span> </p>
 			</div>
@@ -260,7 +275,6 @@
 		</footer>
 	</section>
 	<!-- Footer end -->
-
 
 
 	<!-- AOS -->

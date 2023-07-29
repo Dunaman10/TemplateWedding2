@@ -6,6 +6,54 @@ body {
   background-color: #efecec;
 }
 
+/* Pembukaan */
+.pembukaan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.pembukaan {
+  position: relative;
+}
+
+.pembukaan p {
+  font-weight: 100;
+}
+
+.pembukaan img {
+  width: 200px;
+  margin-top: -5rem;
+}
+
+.pembukaan h4,
+.pembukaan h2,
+.pembukaan a {
+  text-shadow: var(--shadow);
+}
+
+.pembukaan img {
+  box-shadow: var(--shadow);
+}
+
+.pembukaan h4 {
+  font-family: "Anek Gurmukhi", sans-serif;
+  font-weight: 700;
+}
+
+.pembukaan h2 {
+  font-family: "Tangerine", cursive;
+  font-weight: 900;
+}
+
 /* Gaya tombol play kustom */
 .play-button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -473,5 +521,10 @@ body {
 
   .footer p {
     font-size: 0.9rem;
+  }
+
+  .pembukaan img {
+    width: 150px;
+    margin-top: -1rem;
   }
 }
