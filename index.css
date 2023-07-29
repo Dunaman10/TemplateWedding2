@@ -1,0 +1,477 @@
+:root {
+  --shadow: 0 2px 2px rgba(0 0 0 / 0.5);
+}
+
+body {
+  background-color: #efecec;
+}
+
+/* Gaya tombol play kustom */
+.play-button {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* countdown */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/index/countdown.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.hero {
+  position: relative;
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+}
+
+.hero main {
+  text-shadow: var(--shadow);
+  box-shadow: var(--shadow);
+  width: 40rem;
+  height: 30rem;
+}
+
+.hero main h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+}
+
+.hero main h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+
+.hero main p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+}
+
+/* Ayat Al-Qur'an */
+
+.ayat main {
+  background-image: url(img/index/ayat.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 20px 20px 20px rgba(34, 31, 31, 0.5);
+}
+
+.ayat main p {
+  text-shadow: var(--shadow);
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  text-shadow: var(--shadow);
+}
+
+/* Pasangan */
+.pasangan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/index/couple.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: difference;
+  z-index: -1;
+}
+
+.pasangan {
+  position: relative;
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+  text-shadow: var(--shadow);
+}
+
+.pasangan h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 5rem;
+}
+
+.pasangan h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+.pasangan p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.pasangan a:hover {
+  opacity: 60%;
+}
+
+/* Date */
+.date main {
+  background-image: url(img/index/date.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 20px 20px 20px rgba(34, 31, 31, 0.5);
+  text-shadow: var(--shadow);
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.date h2 {
+  font-size: 1.5rem;
+}
+
+.date p {
+  font-size: 1rem;
+}
+
+.date a {
+  font-size: 1rem;
+}
+
+.date a:hover {
+  opacity: 60%;
+}
+
+/* Journey */
+.journey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/index/bg-journey.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: difference;
+  z-index: -1;
+}
+
+.journey {
+  position: relative;
+  text-shadow: var(--shadow);
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+  text-shadow: var(--shadow);
+}
+
+.journey h1 {
+  font-size: 7rem;
+  font-family: "Tangerine", cursive;
+}
+
+.journey h2 {
+  font-size: 2rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.journey p {
+  font-size: 1rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.journey h3 {
+  font-size: 3rem;
+  font-family: "Tangerine", cursive;
+  color: white;
+}
+
+/* Gallery */
+.galeri figcaption {
+  font-size: 5.5rem;
+  font-family: "Tangerine", cursive;
+}
+
+/* Share Love */
+.share-love::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/index/share-love.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: difference;
+  z-index: -1;
+}
+
+.share-love {
+  position: relative;
+  text-shadow: var(--shadow);
+  text-shadow: var(--shadow);
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+  text-shadow: var(--shadow);
+}
+
+.share-love h1 {
+  font-family: "Tangerine", cursive;
+}
+
+.share-love p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Penutup */
+.penutup main {
+  background-image: url(img/index/penutup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 20px 20px 20px rgba(34, 31, 31, 0.5);
+  text-shadow: var(--shadow);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.penutup h1 {
+  font-size: 7rem;
+  font-family: "Tangerine", cursive;
+}
+
+.penutup h2 {
+  font-size: 2rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.penutup p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.1rem;
+}
+
+.penutup p span {
+  font-weight: lighter;
+}
+
+/* Footer */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/index/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: difference;
+  z-index: -1;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.2rem;
+  text-shadow: var(--shadow);
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .hero main {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .hero main h1 {
+    font-size: 3rem;
+  }
+
+  .hero main h2 {
+    font-size: 1.2rem;
+  }
+
+  .pasangan main {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .map iframe {
+    width: 30rem;
+    height: 35rem;
+  }
+
+  .journey img {
+    width: 15rem;
+  }
+
+  .journey h1 {
+    font-size: 5rem;
+  }
+
+  .journey h2 {
+    font-size: 1.5rem;
+  }
+
+  .share-love main {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .galeri figcaption {
+    font-size: 4.5rem;
+  }
+
+  .penutup main {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .penutup h1 {
+    font-size: 5rem;
+    margin-top: 3.5rem;
+  }
+
+  .penutup h2 {
+    font-size: 1.2rem;
+  }
+
+  .penutup p {
+    font-size: 1rem;
+  }
+}
+
+/* Phone */
+@media (max-width: 567px) {
+  .hero main {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .hero main h1 {
+    font-size: 3rem;
+  }
+
+  .hero main h2 {
+    font-size: 0.8rem;
+  }
+
+  .hero main p {
+    font-size: 0.5rem;
+  }
+
+  .pasangan main,
+  .share-love main {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .pasangan img {
+    width: 10rem;
+  }
+
+  .pasangan h1 {
+    font-size: 3.5rem;
+  }
+
+  .pasangan h2 {
+    font-size: 1.5rem;
+  }
+
+  .pasangan p {
+    font-size: 1rem;
+  }
+
+  .date main {
+    width: 20rem;
+    height: 30rem;
+  }
+
+  .date h1 {
+    margin-top: 7rem;
+  }
+
+  .date .akad,
+  .date .resepsi {
+    margin-top: 0.5rem;
+  }
+
+  .date h2 {
+    font-size: 1rem;
+  }
+
+  .date p {
+    font-size: 0.8rem;
+  }
+
+  .map iframe {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .journey img {
+    width: 10rem;
+  }
+
+  .journey h1 {
+    font-size: 4rem;
+  }
+
+  .journey h3 {
+    font-size: 1.5rem;
+  }
+
+  .galeri figcaption {
+    font-size: 2.5rem;
+  }
+
+  .share-love h1 {
+    font-family: "Tangerine", cursive;
+    font-size: 2.5rem;
+  }
+
+  .share-love p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.6rem;
+  }
+
+  .penutup main {
+    width: 25rem;
+    height: 15rem;
+  }
+
+  .penutup h1 {
+    font-size: 3rem;
+    margin-top: 0.1rem;
+  }
+
+  .penutup h2 {
+    font-size: 1rem;
+  }
+
+  .penutup p {
+    font-size: 0.7rem;
+  }
+
+  .penutup main div {
+    width: 15rem;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+}

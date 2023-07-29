@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Template 2</title>
+
+	<!-- Tailwind by CDN -->
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<!-- My Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@100;400;700&family=Tangerine:wght@700&display=swap"
+		rel="stylesheet">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="index.css">
+
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<!-- My Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400;600&family=Tangerine:wght@700&display=swap"
+		rel="stylesheet">
+
+	<!-- simplyCountdown -->
+	<link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+	<script src="countdown/simplyCountdown.min.js"></script>
+
+	<!-- My Icons -->
+	<script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+
+	<!-- Music start -->
+	<div class="audio-container fixed z-50 bottom-0 right-0 m-10">
+		<audio src="music/Thousand_years.mp3" type="audio/mp3"></audio>
+		<button class="play-button hover:bg-white hover:bg-opacity-25 rounded-full w-14 h-14" onclick="toggleAudio()"
+			id="playPauseButton"><i data-feather="play" class="mx-auto text-white"></i></button>
+	</div>
+	<!-- Music end -->
+
+
+	<!-- countdown start -->
+	<section class="hero min-h-screen w-full h-full mx-auto flex justify-center items-center">
+		<main class=" bg-black rounded-tr-[5rem] rounded-bl-[5rem] p-8 bg-opacity-50 text-white" data-aos="fade-up"
+			data-aos-duration="1500">
+			<h1 class="text-center fw-bold fs-[3rem]">
+				Romeo & Juliet
+			</h1>
+			<h2 class="mb-5">Assalamu'alaikum wr wb</h2>
+			<p>Segala Puji Bagi Allah SWT yang telah menjadikan hambanya hidup berpasang-pasangan. Dengan memohon Ridho,
+				Rahmat, dan Berkah Allah SWT, kami bermaksud untuk mengundang Saudara/i dalam acara pernikahan yang kami
+				selenggarakan.</p>
+
+			<div class="simply-countdown">
+
+			</div>
+		</main>
+	</section>
+	<!-- countdown end -->
+
+	<!-- Ayat Al-Qur'an start -->
+	<section class="ayat min-h-screen w-full h-full mx-auto flex justify-center items-center" data-aos="fade-down"
+		data-aos-duration="1500">
+		<main class="w-96 h-96 rounded-md">
+			<p class="text-white p-8 text-center">
+				Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri,
+				supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-nya di antaramu rasa kasih dan sayang.
+				Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kamu yang berpikir. <br><br>
+				<span class="text-2xl">QS. AR-RUM AYAT : 21</span>
+			</p>
+		</main>
+	</section>
+	<!-- Ayat Al-Qur'an end -->
+
+	<!-- pasangan start -->
+	<section class="pasangan min-h-screen w-full h-full mx-auto flex justify-center items-center">
+		<main class="w-[50rem] h-[40rem] flex justify-around text-white bg-black bg-opacity-40 rounded-3xl p-5"
+			data-aos="fade-up" data-aos-duration="1500">
+			<div class="groom text-center">
+				<h1>Groom</h1>
+				<img src="img/index/groom.jpg" alt="mempelai pria" class="w-48 rounded-full shadow-2xl">
+				<h2 class="pt-2">Romeo</h2>
+				<hr width="50%" class="mx-auto">
+				<p class="pt-3">Putra dari Bapak ... & Ibu ...</p>
+				<div class="flex justify-evenly">
+					<a href="#" class="mt-3"><i data-feather="instagram"></i></a>
+					<a href="#" class="mt-3"><i data-feather="facebook"></i></a>
+					<a href="#" class="mt-3"><i data-feather="twitter"></i></a>
+				</div>
+			</div>
+			<div>
+				<h1>&</h1>
+			</div>
+			<div class="bride text-center">
+				<h1>Bride</h1>
+				<img src="img/index/bride.jpg" alt="mempelai wanita" class="w-48 rounded-full shadow-2xl">
+				<h2 class="pt-3">Juliet</h2>
+				<hr width="50%" class="mx-auto">
+				<p class="pt-3">Putri dari Bapak ... & Ibu ...</p>
+				<div class="flex justify-evenly">
+					<a href="#" class="mt-3"><i data-feather="instagram"></i></a>
+					<a href="#" class="mt-3"><i data-feather="facebook"></i></a>
+					<a href="#" class="mt-3"><i data-feather="twitter"></i></a>
+				</div>
+			</div>
+		</main>
+	</section>
+	<!-- pasangan end -->
+
+	<!-- Date start -->
+	<section class="date min-h-screen w-full h-full mx-auto flex justify-center items-center">
+		<main class="w-[30rem] h-[40rem] rounded-tr-full rounded-tl-full" data-aos="fade-down" data-aos-duration="1500">
+			<h1 class="mt-40 text-center text-4xl fw-bolder">Save the Date</h1>
+			<div class="flex justify-evenly p-5">
+				<div class="akad mt-10 text-center">
+					<h2>Akad Nikah</h2>
+					<hr width="50%" class="mx-auto">
+					<p class="mt-3">Jum'at, 01 Juni 2025</p>
+					<p>08.00 WIB</p>
+					<p>Jln.Swadaya No.40 Bojongsari.Depok</p>
+				</div>
+				<div class="resepsi mt-10 text-center">
+					<h2>Resepsi</h2>
+					<hr width="50%" class="mx-auto">
+					<p class="mt-3">Jum'at, 01 Juni 2025</p>
+					<p>10.00 WIB</p>
+					<p>Jln.Swadaya No.40 Bojongsari.Depok</p>
+				</div>
+			</div>
+			<div class="text-center">
+				<h2><a href="https://goo.gl/maps/UyxqiJpEn2mB7iZh7"><i data-feather="map-pin" class="mx-auto"></i>Buka Map</a>
+				</h2>
+			</div>
+		</main>
+	</section>
+	<!-- Date end -->
+
+	<!-- Journey start -->
+	<section class="journey min-h-screen w-full h-full">
+		<main class="p-20">
+			<div class="text-white text-center mb-10" data-aos="fade-up" data-aos-duration="1500">
+				<h1>The Journey</h1>
+				<hr class="w-40 mx-auto">
+				<h2>Our Love Story</h2>
+				<p>How it all started</p>
+			</div>
+
+			<div class="flex justify-end" data-aos="fade-up" data-aos-duration="1500">
+				<h3 class="absolute">First meet</h3>
+				<img src="img/index/journey-1.jpg" alt="journey 1" class="w-80 rounded-full shadow-2xl">
+			</div>
+
+			<div class="flex justify-start" data-aos="fade-up" data-aos-duration="1500">
+				<h3 class="absolute">Date</h3>
+				<img src="img/index/journey-2.jpg" alt="journey 1" class="w-80 rounded-full">
+			</div>
+			<div class="flex justify-end" data-aos="fade-up" data-aos-duration="1500">
+				<h3 class="absolute">Engagement</h3>
+				<img src="img/index/journey-3.jpg" alt="journey 1" class="w-80 rounded-full">
+			</div>
+			<div class="flex justify-start" data-aos="fade-up" data-aos-duration="1500">
+				<h3 class="absolute">Wedding</h3>
+				<img src="img/index/journey-4.jpg" alt="journey 1" class="w-80 rounded-full">
+			</div>
+
+		</main>
+	</section>
+	<!-- Journey end -->
+
+	<!-- Gallery start -->
+	<section class="galeri">
+		<main>
+			<figure data-aos="fade-down" data-aos-duration="1500">
+				<figcaption class="text-center my-10">
+					A Glimpse of Our Moments
+				</figcaption>
+				<video controls width="800" class="mx-auto rounded-md shadow-2xl">
+					<source src="video/wedding.mp4" type="video/mp4">
+					Browser anda tidak mendukung video ini
+				</video>
+			</figure>
+			<div class="grid sm:grid-cols-2 gap-3 md:grid-cols-3 mx-10 mt-5" data-aos="fade-up" data-aos-duration="1500">
+				<img src="galeri/1.jpg" alt="galeri 1" class="shadow-2xl rounded-md">
+				<img src="galeri/2.jpg" alt="galeri 2" class="shadow-2xl rounded-md">
+				<img src="galeri/3.jpg" alt="galeri 3" class="shadow-2xl rounded-md">
+				<img src="galeri/4.jpg" alt="galeri 4" class="shadow-2xl rounded-md">
+				<img src="galeri/5.jpg" alt="galeri 5" class="shadow-2xl rounded-md">
+				<img src="galeri/6.jpg" alt="galeri 6" class="shadow-2xl rounded-md">
+			</div>
+		</main>
+	</section>
+	<!-- Gallery end -->
+
+	<!-- Share Love start -->
+	<section class="share-love min-h-screen w-full h-full mt-10 flex items-center">
+		<main class="w-[50rem] h-[40rem] text-white bg-black bg-opacity-40 rounded-3xl p-5 mx-auto" data-aos="fade-down"
+			data-aos-duration="1500">
+			<h1 class="text-center text-white text-[5rem]">Share Love</h1>
+			<p class="text-center">Bagi tamu yang akan mengirimkan hadiah kepada kedua mempelai silahkan mengirimkan melalui
+				rekening berikut :
+			</p>
+			<div class="flex justify-evenly mt-4">
+				<div class="text-center">
+					<img src="img/index/mandiri.png" alt="Bank Mandiri" width="200">
+					<p class="mt-10">Mandiri - <span id="textToCopy">123456789</span></p>
+					<p>Anonymous</p>
+					<button class="rounded-lg bg-sky-500 hover:bg-sky-700 p-2 flex mx-auto mt-4 active:bg-sky-950"
+						onclick="copyTextToClipboard()"><i data-feather="clipboard" class="me-2"></i>
+						Salin</button>
+				</div>
+				<div class="text-center">
+					<img src="img/index/BRI.png" alt="Bank BRI" width="175">
+					<p class="mt-10">BRI - <span id="textToCopy2">987654321</span></p>
+					<p>Anonymous</p>
+					<button class="rounded-lg bg-sky-500 hover:bg-sky-700 p-2 flex mx-auto mt-4 active:bg-sky-950"
+						onclick="copyTextToClipboard2()"><i data-feather="clipboard" class="me-2"></i>
+						Salin</button>
+				</div>
+			</div>
+		</main>
+	</section>
+	<!-- Share Love end -->
+
+	<!-- Penutup start -->
+	<section class="penutup min-h-screen w-full h-full flex items-center">
+		<main class="w-[50rem] h-[40rem] text-white rounded-full p-5 mx-auto text-center" data-aos="fade-up"
+			data-aos-duration="1500">
+			<h1 class="mt-32">Romeo & Juliet</h1>
+			<div class="w-96 mx-auto">
+				<h2>Terima kasih</h2>
+				<p>Merupakan sebuah kehormatan dan kebahagiaan bagi kami jika Bapak/Ibu/Saudara/i berkenan hadir dan memberikan
+					doa restu bagi kami. Terima kasih.</p>
+				<p> <span>01 Juni 2025</span> </p>
+			</div>
+		</main>
+	</section>
+	<!-- Penutup end -->
+
+	<!-- Footer start -->
+	<section class="footer">
+		<footer class="w-full h-40">
+			<p class="text-end pt-16 pe-10 text-white">&copy;Copyright | Syarif Hidayatullah</p>
+			<div class="flex justify-end pt-2 pe-10">
+				<a href="#" class="text-white hover:text-slate-200 pe-2"><i data-feather="instagram"></i></a>
+				<a href="#" class="text-white hover:text-slate-200 pe-2"><i data-feather="twitter"></i></a>
+				<a href="#" class="text-white hover:text-slate-200 pe-2"><i data-feather="facebook"></i></a>
+				<a href="#" class="text-white hover:text-slate-200 pe-2"><i data-feather="mail"></i></a>
+				<a href="#" class="text-white hover:text-slate-200"><i data-feather="github"></i></a>
+			</div>
+		</footer>
+	</section>
+	<!-- Footer end -->
+
+
+
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
+	<!-- SimplyCountdown -->
+	<script>
+		simplyCountdown('.simply-countdown', {
+			year: 2025, // required
+			month: 7, // required
+			day: 12, // required
+			hours: 0, // Default is 0 [0-23] integer
+			words: { //words displayed into the countdown
+				days: {
+					singular: 'hari',
+					plural: 'hari'
+				},
+				hours: {
+					singular: 'jam',
+					plural: 'jam'
+				},
+				minutes: {
+					singular: 'menit',
+					plural: 'menit'
+				},
+				seconds: {
+					singular: 'detik',
+					plural: 'detik'
+				}
+			},
+		});
+	</script>
+
+	<!-- Icons -->
+	<script>
+		feather.replace()
+	</script>
+
+	<!-- My Javascript -->
+	<script src="script.js"></script>
+
+</body>
+
+</html>

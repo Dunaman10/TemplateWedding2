@@ -1,0 +1,28 @@
+.simply-countdown {
+  overflow: hidden;
+  display: table;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: auto;
+  font-weight: 600;
+  text-shadow: var(--shadow);
+  margin-top: 2rem;
+}
+.simply-countdown > .simply-section {
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  background: none;
+  color: white;
+  text-shadow: var(--shadow);
+}
+.simply-countdown > .simply-section .simply-amount,
+.simply-countdown > .simply-section .simply-word {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+}
